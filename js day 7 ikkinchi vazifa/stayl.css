@@ -1,0 +1,69 @@
+body {
+  background-color: aquamarine;
+}
+.boxs {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  background-color: #fff;
+  max-width: 33%;
+  padding: 20px;
+  border-radius: 12px;
+  margin-left: 30%;
+}
+.forimtext {
+  display: flex;
+}
+#input {
+  padding: 5px;
+  font-size: 28px;
+  border: 2px solid dimgrey;
+  outline: none;
+  border-radius: 12px;
+}
+.button {
+  padding: 6px 12px 6px 12px;
+  font-size: 28px;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  margin-left: 10px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.button:hover {
+  background-color: #fff;
+  color: blue;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.itim_p {
+  font-size: 28px;
+  color: dimgray;
+}
+.cart_button {
+  padding: 8px 12px 8px 8px;
+  font-size: 28px;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  margin-left: 10px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+.cart_button:hover {
+  background-color: white;
+  color: blue;
+}
+.book {
+  background-color: dimgray;
+  color: aqua;
+  font-size: 28px;
+  width: 77%;
+  padding-left: 10px;
+  border-radius: 8px;
+}
